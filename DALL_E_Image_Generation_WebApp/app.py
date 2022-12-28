@@ -5,6 +5,7 @@ import streamlit as st
 import os
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_base = "https://ajay1812-machine-learn-dall-e-image-generation-webappapp-4fc4na.streamlit.app/"
 
 def generate_image(image_description):
     
