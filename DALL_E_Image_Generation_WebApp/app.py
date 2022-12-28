@@ -3,7 +3,7 @@ import urllib.request
 from PIL import Image
 import streamlit as st
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 def generate_image(image_description):
     
