@@ -5,7 +5,7 @@ import openai
 import re
 
 # Set the API key for the Chat GPT
-openai.api_key = "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"
+openai.api_key = "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"
 
 #import dataset
 df = pd.read_csv('data.csv')
@@ -93,7 +93,7 @@ if button is True:
     msg = f"Tell me somthing about {select} startup in 50 words: \n"
 
     # Set the API key for the Chat GPT
-    openai.api_key = "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"
+    openai.api_key = "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"
 
     # Define the prompt for the Chat GPT
     prompt = msg
