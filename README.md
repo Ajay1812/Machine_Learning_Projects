@@ -5,6 +5,7 @@ I'm **Ajay Kumar**, a passionate data analyst who is excited about leveraging da
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ajayportfolio01.streamlit.app/)
+
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajay-kumar-691a52208/)
 
 ## 🛠 Skills
