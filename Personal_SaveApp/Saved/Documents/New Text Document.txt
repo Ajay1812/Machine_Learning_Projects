@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=dkvDXl1D0MU&ab_channel=ForwardTechnical
+
+skeleton  knights
+
+https://www.youtube.com/watch?v=CUBfrdDwznQ&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=2&ab_channel=AlexTheAnalyst
+
+
+CHATGPT API - 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
+
+
+text-decoration: none;
+/*   color: rgb(71, 87, 190) !important; */
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
