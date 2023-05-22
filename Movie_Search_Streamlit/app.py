@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from api import movieApi
 
-
+st.title('Movie Search App!')
 title = st.text_input('**User Input**')
 st.write('#')
 if title:
