@@ -1,7 +1,8 @@
 # Movie Search App
 
 ### Demo
-![Demo](https://user-images.githubusercontent.com/81603467/209421144-16eedb40-dffc-41a0-9044-5784f99ef5c9.png)
+![Demo](https://github.com/Ajay1812/Machine_Learning_Projects/assets/81603467/f8b0e73e-9b26-416d-add5-6b037ec5cae0)
+
 
 To view the demo: [**Click here**](https://ajay1812-machine-learning-proj-movie-search-streamlitapp-8ybbrt.streamlit.app/)
 
