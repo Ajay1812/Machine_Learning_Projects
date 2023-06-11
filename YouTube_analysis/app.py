@@ -38,7 +38,7 @@ SEARCH_QUERY = selected_category
 MAX_RESULTS = 5
 
 # Make a GET request to search for channels in the food category
-url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&type=channel&q={SEARCH_QUERY}&maxResults={MAX_RESULTS}&key={headers}"
+url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&type=channel&q={SEARCH_QUERY}&maxResults={MAX_RESULTS}&key={headers['authorization']}"
 response = requests.get(url)
 
 # Parse the response and extract the channel IDs
