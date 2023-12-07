@@ -4,7 +4,7 @@ import requests
 import time
 
 headers = {
-    "authorization": st.secrets["auth_token"],
+    "authorization": st.secrets["API_KEY"],
     "content_type":"application/json"
 }
 
