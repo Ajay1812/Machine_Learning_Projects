@@ -3,12 +3,12 @@ import pandas as pd
 import requests
 import time
 
-headers = {
-    "authorization": st.secrets["API_KEY"],
-    "content_type":"application/json"
-}
-
-BASE_URL = f'https://api.freecurrencyapi.com/v1/latest?apikey={headers}'
+#headers = {
+#    "authorization": st.secrets["API_KEY"],
+#    "content_type":"application/json"
+#}
+API_KEY = "fca_live_zUoTb8OaIMBg70u2g82kxIVcSDmqZj67nlz3DU1U"
+BASE_URL = f'https://api.freecurrencyapi.com/v1/latest?apikey={API_KEY}'
 
 st.header("Currency Converter App 👻")
 
