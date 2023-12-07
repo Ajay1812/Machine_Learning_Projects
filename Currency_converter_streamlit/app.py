@@ -3,12 +3,11 @@ import pandas as pd
 import requests
 import time
 
-#headers = {
-#    "authorization": st.secrets["API_KEY"],
-#    "content_type":"application/json"
-#}
-API_KEY = "fca_live_zUoTb8OaIMBg70u2g82kxIVcSDmqZj67nlz3DU1U"
-BASE_URL = f'https://api.freecurrencyapi.com/v1/latest?apikey={API_KEY}'
+headers = {
+    "authorization": st.secrets["API_KEY"],
+    "content_type":"application/json"
+}
+BASE_URL = f'https://api.freecurrencyapi.com/v1/latest?apikey={headers}'
 
 st.header("Currency Converter App 👻")
 
@@ -29,7 +28,7 @@ if st.button("Click", type="secondary"):
         url = f'{BASE_URL}&base_currency={base_currency}&currencies={currencies}'
         # st.write(url)
         try:
-            response = requests.get(url)
+            response = requests.get(url,headers=headers)
             data = response.json()
             return data['data']
         except:
