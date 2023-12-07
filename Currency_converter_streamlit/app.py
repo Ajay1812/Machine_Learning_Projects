@@ -29,7 +29,7 @@ if st.button("Click", type="secondary"):
         url = f'{BASE_URL}&base_currency={base_currency}&currencies={currencies}'
         # st.write(url)
         try:
-            response = requests.get(url)
+            response = requests.get(url,headers=headers)
             data = response.json()
             return data['data']
         except:
