@@ -5,7 +5,7 @@ import time
 
 st.set_page_config("Password Generator 🔐")
 
-logo = "Logo/logo.png"
+logo = "./Logo/logo.png"
 
 st.title("Password Generator 🔐")
 st.markdown("""
