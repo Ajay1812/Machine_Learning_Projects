@@ -1,6 +1,6 @@
 import requests
 import json
-import config
+# import config
 import streamlit as st
 from streamlit_card import card
 import base64
@@ -26,15 +26,15 @@ def display(thumbnail,url):
 )
     return cards
 
-# headers = {
-#     'authorization':st.secrets["API_KEY"],
-#     'content-type':'application/json'
-# }
+headers = {
+    'authorization':st.secrets["API_KEY"],
+    'content-type':'application/json'
+}
 
 
 def get_image(search,page):
-    response = requests.get(f"https://api.unsplash.com/search/photos?page={page}&per_page=12&query={search}&client_id={config.api_access_key}")
-    # response = requests.get(f"https://api.unsplash.com/search/photos?page={page}&per_page=12&query={search}", headers=headers)
+    # response = requests.get(f"https://api.unsplash.com/search/photos?page={page}&per_page=12&query={search}&client_id={config.api_access_key}")
+    response = requests.get(f"https://api.unsplash.com/search/photos?page={page}&per_page=12&query={search}", headers=headers)
     data = response.json()
     return data
 
