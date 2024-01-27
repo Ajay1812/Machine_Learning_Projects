@@ -144,14 +144,14 @@ def main():
             else:
                 remove_background(upload=my_upload)
         else:
-            remove_background("images/img1.jpg")
+            remove_background("img1.jpg")
     
     if selected == "About":
-        logo = "images/logo.png"
+        logo = "logo.png"
         portfolio_url = "https://codenfinite.streamlit.app"
-        twitter_gif = "images/icons8-twitter.gif"
+        twitter_gif = "icons8-twitter.gif"
         twitter_url = "https://twitter.com/Code_NFInite"
-        github_gif = "images/icons8-github.gif"
+        github_gif = "icons8-github.gif"
         github_url = "https://github.com/Ajay1812"
 
         st.markdown("# About")
